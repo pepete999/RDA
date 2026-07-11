@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDA - Piezas para Grifería | Industria Argentina</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        /* Encabezado */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 2px;
+            color: #74b9ff; /* Celeste argentino */
+        }
+        header p {
+            margin: 0;
+            font-size: 14px;
+            color: #b2bec3;
+        }
+
+        /* Sección principal (Hero) */
+        .hero {
+            background: linear-gradient(135deg, #ffffff 0%, #e0f0ff 100%);
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 3px solid #74b9ff;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #2d3436;
+        }
+        .hero p {
+            font-size: 1.2em;
+            max-width: 650px;
+            margin: 0 auto 30px auto;
+            color: #636e72;
+            line-height: 1.6;
+        }
+
+        /* Botón Mercado Libre */
+        .btn-meli {
+            display: inline-block;
+            background-color: #FFE600; /* Amarillo Mercado Libre */
+            color: #2D3277; /* Azul Mercado Libre */
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .btn-meli:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Sección de características */
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .feature-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            border-top: 4px solid #0984e3;
+        }
+        .feature-card h3 {
+            color: #0984e3;
+            margin-top: 0;
+        }
+        .feature-card p {
+            color: #636e72;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #2d3436;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        /* Diseño responsivo */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+            .hero h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>RDA</h1>
+            <p>Repuestos y Accesorios para Grifería</p>
+        </div>
+        <span>Industria Argentina 🇦🇷</span>
+    </header>
+
+    <section class="hero">
+        <h2>Fabricación Nacional de Piezas para Grifería</h2>
+        <p>Nos dedicamos exclusivamente a la producción y venta de conectores, adaptadores y repuestos de alta precisión para sistemas de agua.</p>
+        
+        <a href="https://listado.mercadolibre.com.ar/_CustId_535773266?item_id=MLA1875063731&category_id=MLA459678&seller_id=535773266&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic" class="btn-meli" target="_blank" rel="noopener noreferrer">
+            Ver catálogo en Mercado Libre
+        </a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Especialistas en Grifería</h3>
+            <p>Diseñamos soluciones específicas para el manejo de fluidos. Nuestras piezas aseguran un ensamble perfecto y sin fugas en tus instalaciones.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Venta Directa de Fábrica</h3>
+            <p>Somos fabricantes y nos enfocamos 100% en la comercialización de nuestros repuestos. Calidad directa a tus manos.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Envíos a todo el país</h3>
+            <p>Despachamos de forma rápida a toda la Argentina a través de Mercado Envíos, con tu compra siempre protegida.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 RDA - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
